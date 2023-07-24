@@ -14,6 +14,7 @@ header {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
+    height: 100vh;
 }
 
 .logo-container {
@@ -45,6 +46,7 @@ header {
     flex-direction: row;
     padding: 100px 0px;
     align-items: stretch;
+    flex: 1;
 }
 
 .hero-text {
@@ -78,7 +80,7 @@ button {
 }
 
 .image-container {
-    background-color: grey;
+    /* background-color: grey; */
     display: flex;
     justify-content: center;
     align-items: center;
