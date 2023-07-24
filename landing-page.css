@@ -211,8 +211,13 @@ button {
     flex: 0 0 115px;
 }
 
-/* DEBUGGING */
-
-.content.call-to-action {
-    /* border: 2px solid red; */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-size: 16px;
 }
