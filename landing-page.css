@@ -47,6 +47,9 @@ header {
     padding: 100px 0px;
     align-items: stretch;
     flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 }
 
 .hero-text {
@@ -58,8 +61,7 @@ header {
 }
 
 .hero-text-section > * {
-    flex: 1 1 0;
-    max-width: 50%;
+    flex: 1 0 250px;
 }
 
 .hero-main-text {
@@ -117,8 +119,8 @@ button {
 
 .content.quote .quote-attribution {
     font-weight: bolder;
-    text-align: right;
     font-size: 24px;
+    text-align: right;
     color: #1f2937;
     padding-top: 32px;
     padding-right: 32px;
@@ -172,4 +174,45 @@ button {
     color: #1f2937;
 }
 
+.content.call-to-action {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.call-to-action-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 32px 64px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.call-to-action-container .content {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+.call-to-action-container .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container button {
+    border: 2px solid #e5e7eb;
+    flex: 0 0 115px;
+}
+
 /* DEBUGGING */
+
+.content.call-to-action {
+    /* border: 2px solid red; */
+}
