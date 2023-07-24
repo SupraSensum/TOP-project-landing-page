@@ -9,3 +9,7 @@ https://www.theodinproject.com/lessons/foundations-landing-page
 ## See it in action:
 
 [https://suprasensum.github.io/TOP-project-landing-page/](https://suprasensum.github.io/TOP-project-landing-page/)
+
+## GitHub Repo
+
+[https://github.com/SupraSensum/TOP-project-landing-page](https://github.com/SupraSensum/TOP-project-landing-page)
